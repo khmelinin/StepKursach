@@ -185,7 +185,7 @@ namespace ClientWPF
                 return;
             }
             var tmp = new MenuItem() { Header = dlg.userName + "|" + dlg.userId };
-            tmp.Click += menuContactCopyId;
+            tmp.Click += menuRemoveContact_Click;
 
             menuContacts.Items.Add(tmp);
             contacts.Add(new Contact(dlg.userId, dlg.userName));
@@ -512,7 +512,7 @@ namespace ClientWPF
                 return;
             }
             var tmp = new MenuItem() { Header = dlg.userName + "|" + dlg.userId };
-            tmp.Click += menuContactCopyId;
+            tmp.Click += menuRemoveBlacklist1;
             tmp.MouseDoubleClick += menuRemoveBlacklist1;
             menuBlacklist.Items.Add(tmp);
             blacklist.Add(new Contact(dlg.userId, dlg.userName));
