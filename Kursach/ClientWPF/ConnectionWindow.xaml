@@ -1,0 +1,27 @@
+﻿<Window x:Class="ClientWPF.ConnectionWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ClientWPF"
+        mc:Ignorable="d"
+        Title="ConnectionWindow" Height="128" Width="380" ShowInTaskbar="False" ResizeMode="NoResize" WindowStartupLocation="CenterOwner" WindowStyle="ToolWindow">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <TextBlock Grid.Row="0" Grid.Column="0" Text="Adress"/>
+        <TextBox Grid.Row="0" Grid.Column="1" x:Name="txtIpAdress" Text="127.0.0.1"/>
+
+        <TextBlock Grid.Row="1" Grid.Column="0" Text="Port"/>
+        <TextBox Grid.Row="1" Grid.Column="1" x:Name="txtPort" Text="8888"/>
+        <Button Grid.Row="2" Grid.Column="0" x:Name="btnCreate" Click="btnCreate_Click">Go</Button>
+        <Button Grid.Row="2" Grid.Column="1" x:Name="btnCancel" Click="btnCancel_Click">Cancel</Button>
+    </Grid>
+</Window>

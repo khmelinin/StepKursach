@@ -1,0 +1,27 @@
+﻿<Window x:Class="ClientWPF.AddGroupWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ClientWPF"
+        mc:Ignorable="d"
+        Title="AddGroupWindow" Height="128" Width="380" ShowInTaskbar="False" ResizeMode="NoResize" WindowStartupLocation="CenterOwner" WindowStyle="ToolWindow">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <TextBlock Grid.Row="0" Grid.Column="0" Text="Chat Name"/>
+        <TextBox Grid.Row="0" Grid.Column="1" x:Name="txtName"/>
+
+        <TextBlock Grid.Row="1" Grid.Column="0" Text="Chat Id"/>
+        <TextBox Grid.Row="1" Grid.Column="1" x:Name="txtId"/>
+        <Button Grid.Row="2" Grid.Column="0" x:Name="btnCreate" Click="btnCreate_Click">Add</Button>
+        <Button Grid.Row="2" Grid.Column="1" x:Name="btnCancel" Click="btnCancel_Click">Cancel</Button>
+    </Grid>
+</Window>
