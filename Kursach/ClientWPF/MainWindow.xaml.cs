@@ -162,7 +162,7 @@ namespace ClientWPF
         private void btnSend_Click(object sender, RoutedEventArgs e)
         {
             SendMessage();
-            //txtBlockChatWindow.Text += ("\nMe: " + txtChat.Text);
+            txtBlockChatWindow.Text += ("\nMe: " + txtChat.Text);
             txtChat.Text = string.Empty;
         }
 
@@ -171,7 +171,7 @@ namespace ClientWPF
             if (e.Key == Key.Enter)
             {
                 SendMessage();
-                //txtBlockChatWindow.Text += ("\nMe: " + txtChat.Text);
+                txtBlockChatWindow.Text += ("\nMe: " + txtChat.Text);
                 txtChat.Text = string.Empty;
             }
         }

@@ -23,3 +23,31 @@ A|45fed81e-a480-4a40-b137-e901e7f0f7dd|: ?
 A|45fed81e-a480-4a40-b137-e901e7f0f7dd|: ?
 A|45fed81e-a480-4a40-b137-e901e7f0f7dd| entered the chat
 A|45fed81e-a480-4a40-b137-e901e7f0f7dd|: hi
+B|35fed81e-a480-4a40-b137-e901e7f0f7dd| entered the chat
+A|45fed81e-a480-4a40-b137-e901e7f0f7dd| entered the chat
+A|45fed81e-a480-4a40-b137-e901e7f0f7dd| entered the chat
+A|45fed81e-a480-4a40-b137-e901e7f0f7dd|: hi
+A|45fed81e-a480-4a40-b137-e901e7f0f7dd|: hi
+B|35fed81e-a480-4a40-b137-e901e7f0f7dd|: hello
+B|35fed81e-a480-4a40-b137-e901e7f0f7dd|: hello
+C|25fed81e-a480-4a40-b137-e901e7f0f7dd| entered the chat
+C|25fed81e-a480-4a40-b137-e901e7f0f7dd| entered the chat
+C|25fed81e-a480-4a40-b137-e901e7f0f7dd| entered the chat
+C|25fed81e-a480-4a40-b137-e901e7f0f7dd|: good
+C|25fed81e-a480-4a40-b137-e901e7f0f7dd|: good
+C|25fed81e-a480-4a40-b137-e901e7f0f7dd|: good
+B|35fed81e-a480-4a40-b137-e901e7f0f7dd| entered the chat
+A|45fed81e-a480-4a40-b137-e901e7f0f7dd| entered the chat
+A|45fed81e-a480-4a40-b137-e901e7f0f7dd| entered the chat
+C|25fed81e-a480-4a40-b137-e901e7f0f7dd| entered the chat
+C|25fed81e-a480-4a40-b137-e901e7f0f7dd| entered the chat
+C|25fed81e-a480-4a40-b137-e901e7f0f7dd| entered the chat
+C|25fed81e-a480-4a40-b137-e901e7f0f7dd|: hi
+C|25fed81e-a480-4a40-b137-e901e7f0f7dd|: hi
+C|25fed81e-a480-4a40-b137-e901e7f0f7dd|: hi
+B|35fed81e-a480-4a40-b137-e901e7f0f7dd|: hi
+B|35fed81e-a480-4a40-b137-e901e7f0f7dd|: hi
+B|35fed81e-a480-4a40-b137-e901e7f0f7dd|: hi
+A|45fed81e-a480-4a40-b137-e901e7f0f7dd|: hi
+A|45fed81e-a480-4a40-b137-e901e7f0f7dd|: hi
+A|45fed81e-a480-4a40-b137-e901e7f0f7dd|: hi

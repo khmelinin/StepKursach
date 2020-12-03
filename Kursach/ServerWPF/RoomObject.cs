@@ -87,7 +87,7 @@ namespace ServerWPF
 
         protected internal async void BroadcastMessage(string message, string id)
         {
-            bool finish = false;
+            //bool finish = false;
             var a = clients.ToArray();
             foreach (var item in a)
             {
@@ -97,18 +97,30 @@ namespace ServerWPF
                     await item.Stream.WriteAsync(ban_data, 0, ban_data.Length);
                     return;
                 }
-                if (message.Contains('|'+item.Id))
-                {
-                    byte[] private_data = Encoding.Unicode.GetBytes(message);
-                    await item.Stream.WriteAsync(private_data, 0, private_data.Length);
-                    finish = true;
-                }
+                
 
             }
-            if (finish)
+            if (message.Split('|').Count() > 3)
             {
+                for (int i = 3; i < message.Split('|').Count(); i++)
+                {
+                    foreach (var item in clients)
+                    {
+                        if(item.Id== message.Split('|')[i])
+                        {
+                            byte[] private_data = Encoding.Unicode.GetBytes(message);
+                            await item.Stream.WriteAsync(private_data, 0, private_data.Length);
+                        }
+                    }
+                    
+                }
                 return;
+                //finish = true;
             }
+            //if (finish)
+            //{
+            //    return;
+            //}
             byte[] data = Encoding.Unicode.GetBytes(message);
             for (int i = 0; i < clients.Count; i++)
             {
